@@ -1,0 +1,43 @@
+body {
+  color: #f2f2f2;
+  background-color: #0d0d0d;
+}
+.container {
+  width: 1168px;
+}
+.blue {
+  color: #337ab7;
+}
+.board-cell {
+  float: left;
+  background-color: white;
+  height: 2.7em;
+  width: 2.7em;
+}
+.wall-cell {
+  background-color: grey;
+}
+.monster-cell {
+  background-color: red;
+}
+.item-cell {
+  background-color: yellow;
+}
+.escape-cell {
+  background-color: purple;
+}
+.player-cell {
+  background-color: blue;
+}
+.health-cell {
+  background-color: green;
+}
+.boss-cell {
+  background-color: #4d0000;
+}
+.dark-cell {
+  background-color: #0d0d0d;
+}
+#VictoryModal {
+  color: black;
+}

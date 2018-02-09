@@ -1,0 +1,25 @@
+{
+  "name": "react-testing",
+  "version": "1.0.0",
+  "description": "A simple workspace for react apps and widgets",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Jiri Kabelka",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5"
+  }
+}
